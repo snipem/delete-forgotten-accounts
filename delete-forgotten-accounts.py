@@ -63,8 +63,8 @@ M.login(args.username, args.password)
 M.select()
 
 domains = []
-debug = True
-mode = "Save"
+debug = False
+mode = "Not Save"
 
 ##Get all FROM information from the IMAP server, containing all email senders that sent emails to the receiver
 
