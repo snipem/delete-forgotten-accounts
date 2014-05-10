@@ -18,3 +18,17 @@ Usage
 	  --username USERNAME  IMAP username
 	  --password PASSWORD  IMAP password
 	  --server SERVER      IMAP server
+
+Example
+-------
+
+If you run `python delete-forgotten-accounts.py --username yourusername@somewhere.com --password secretpassword --server imap.somewhere.com` the scripts parses your SSL secured IMAP server for all emails you ever received. The result will be a file named `deleteaccounts.html` in your current folder containing links like these:
+
+[amazon.com](https://www.amazon.com/gp/help/customer/contact-us/ref=cu_cf_email?ie=UTF8&mode=email#a)
+[aol.com](http://cancel.aol.com)
+[battle.net](https://eu.battle.net/support/en/ticket/submit)
+[bbc.co.uk](https://ssl.bbc.co.uk/id/settings/delete)
+[booking.com](https://secure.booking.com/login.en-us.html?tmpl=profile/delete_account)
+[boxee.tv](http://bbx.boxee.tv/user/delete)
+[clickandbuy.com](https://customer.eu.clickandbuy.com/surfer/spring/settings-terminateaccount-flow)
+[deviantart.com](https://www.deviantart.com/settings/deactivation)

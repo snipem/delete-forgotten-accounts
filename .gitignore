@@ -1,3 +1,6 @@
+#Build file
+build.sh
+
 # Pickle file
 *.pickle
 
