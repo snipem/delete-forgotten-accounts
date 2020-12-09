@@ -10,13 +10,11 @@ Checks your IMAP server for received emails, sorts them by the amount of emails 
 Usage
 -----
 
-	usage: delete-forgotten-accounts.py [-h] [--username USERNAME]
-	                                    [--password PASSWORD] [--server SERVER]
+	usage: delete-forgotten-accounts.py [-h] [--username USERNAME] [--server SERVER]
 
 	optional arguments:
 	  -h, --help           show this help message and exit
 	  --username USERNAME  IMAP username
-	  --password PASSWORD  IMAP password
 	  --server SERVER      IMAP server
 
 Example
