@@ -20,7 +20,7 @@ Usage
 Example
 -------
 
-If you run `python delete-forgotten-accounts.py --username yourusername@somewhere.com --password secretpassword --server imap.somewhere.com` the scripts parses your SSL secured IMAP server for all emails you ever received. The result will be a file named `deleteaccounts.html` in your current folder containing links like these:
+If you run `python delete-forgotten-accounts.py --username yourusername@somewhere.com --server imap.somewhere.com` the scripts parses your SSL secured IMAP server for all emails you ever received. The result will be a file named `deleteaccounts.html` in your current folder containing links like these:
 
 [amazon.com](https://www.amazon.com/gp/help/customer/contact-us/ref=cu_cf_email?ie=UTF8&mode=email#a)
 
